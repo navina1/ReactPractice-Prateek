@@ -3,3 +3,5 @@
 2.Build a component that allows transferring of items between two lists. - Transfer
 
 3.Build a stopwatch widget that can measure how much time has passed- Stopwatch
+
+4. Build a counter with a history of the values and ability to undo/redo actions.-Counter
