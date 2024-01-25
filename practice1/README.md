@@ -13,3 +13,5 @@
 7.Build a progress bar component that shows the percentage completion of operation.-ProgressBar
 
 9.Build a popular arcade game where players attempt to hit moles as they pop up from holes in a board. - MoleGame
+
+10. Build an analog clock where the hands update like a real clock.

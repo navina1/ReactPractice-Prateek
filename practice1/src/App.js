@@ -8,11 +8,25 @@ import Tabs from './components/Tabs';
 import TrafficLight from './components/TrafficLight';
 import ProgressBar from './components/ProgressBar';
 import MoleGame from './components/MoleGame';
+import Header from './components/Header';
 
+import { Route, Routes } from 'react-router-dom';
+import IndexPage from './components/IndexPage';
 function App() {
   return (
     <div className="App">
-      <MoleGame/>
+      <Header/>
+      <Routes>
+          <Route path='/' element={<IndexPage/>} />
+          <Route path='/accordian' element={<Accordion/>} />
+          <Route path='/counter' element={<Counter/>} />
+          <Route path='/molegame' element={<MoleGame/>} />
+          <Route path='/progressbar' element={<ProgressBar/>} />
+          <Route path='/stopwatch' element={<Stopwatch/>} />
+          <Route path='/tabs' element={<Tabs/>} />
+          <Route path='/trafficlight' element={<TrafficLight/>} />
+          <Route path='/transfer' element={<Transfer/>} />
+      </Routes>
     </div>
   );
 }
