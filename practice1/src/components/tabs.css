@@ -1,0 +1,24 @@
+.tabcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tablist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    margin: 5px auto;
+}
+.tab{
+    background-color:aliceblue;
+    cursor: pointer;
+    border: solid black 1px;
+    align-items: center;
+}
+.active{
+    background-color: chartreuse;
+}
+.tabcontent{
+    padding-top: 200px;
+}

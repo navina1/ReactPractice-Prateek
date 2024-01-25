@@ -4,11 +4,12 @@ import Accordion from './components/Accordion';
 import Transfer from './components/Transfer';
 import Stopwatch from './components/Stopwatch';
 import Counter from './components/Counter';
+import Tabs from './components/Tabs';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <Tabs/>
     </div>
   );
 }
