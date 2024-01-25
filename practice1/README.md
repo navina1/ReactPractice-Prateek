@@ -11,3 +11,5 @@
 6. Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely.-TrafficLight.
 
 7.Build a progress bar component that shows the percentage completion of operation.-ProgressBar
+
+9.Build a popular arcade game where players attempt to hit moles as they pop up from holes in a board. - MoleGame
