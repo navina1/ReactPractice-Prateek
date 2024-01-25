@@ -6,11 +6,12 @@ import Stopwatch from './components/Stopwatch';
 import Counter from './components/Counter';
 import Tabs from './components/Tabs';
 import TrafficLight from './components/TrafficLight';
+import ProgressBar from './components/ProgressBar';
 
 function App() {
   return (
     <div className="App">
-      <TrafficLight/>
+      <ProgressBar/>
     </div>
   );
 }

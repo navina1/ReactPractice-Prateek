@@ -8,4 +8,6 @@
 
 5. Build a tabs component that displays list of tab elements and one associated panel of content   at a time.- Tab
 
-6. Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely.-TrafficLight
+6. Build a traffic light where the lights switch from green to yellow to red after predetermined intervals and loop indefinitely.-TrafficLight.
+
+7.Build a progress bar component that shows the percentage completion of operation.-ProgressBar
