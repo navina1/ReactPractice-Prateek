@@ -13,6 +13,7 @@ import Header from './components/Header';
 import { Route, Routes } from 'react-router-dom';
 import IndexPage from './components/IndexPage';
 import AnalogClock from './components/AnalogClock';
+import Rating from './components/Rating';
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
           <Route path='/trafficlight' element={<TrafficLight/>} />
           <Route path='/transfer' element={<Transfer/>} />
           <Route path='/analogClock' element={<AnalogClock/>} />
+          <Route path='/rating' element={<Rating/>} />
       </Routes>
     </div>
   );

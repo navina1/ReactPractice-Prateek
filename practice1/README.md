@@ -15,3 +15,5 @@
 9.Build a popular arcade game where players attempt to hit moles as they pop up from holes in a board. - MoleGame
 
 10. Build an analog clock where the hands update like a real clock.- Analog Clock
+
+10. Build a star rating component showing row of star icons for users to select number of filled stars corresponding to the rating. -Rating

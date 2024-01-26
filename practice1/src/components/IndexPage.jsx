@@ -56,6 +56,12 @@ function IndexPage() {
                     Analog Clock
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/rating')}>
+                    Rating
+                    </button>
+                </li>
+                
             </ul>
         </div>
     )
