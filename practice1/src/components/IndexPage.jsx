@@ -51,6 +51,11 @@ function IndexPage() {
                     transfer
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/analogClock')}>
+                    Analog Clock
+                    </button>
+                </li>
             </ul>
         </div>
     )

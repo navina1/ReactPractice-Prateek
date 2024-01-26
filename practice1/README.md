@@ -14,4 +14,4 @@
 
 9.Build a popular arcade game where players attempt to hit moles as they pop up from holes in a board. - MoleGame
 
-10. Build an analog clock where the hands update like a real clock.
+10. Build an analog clock where the hands update like a real clock.- Analog Clock
