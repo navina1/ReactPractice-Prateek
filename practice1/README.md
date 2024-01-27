@@ -17,3 +17,5 @@
 10. Build an analog clock where the hands update like a real clock.- Analog Clock
 
 10. Build a star rating component showing row of star icons for users to select number of filled stars corresponding to the rating. -Rating
+
+11. Build a memory game where the player needs to match pairs of cards. - CardGame

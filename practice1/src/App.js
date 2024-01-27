@@ -14,6 +14,7 @@ import { Route, Routes } from 'react-router-dom';
 import IndexPage from './components/IndexPage';
 import AnalogClock from './components/AnalogClock';
 import Rating from './components/Rating';
+import CardGame from './components/CardGame';
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
           <Route path='/transfer' element={<Transfer/>} />
           <Route path='/analogClock' element={<AnalogClock/>} />
           <Route path='/rating' element={<Rating/>} />
+          <Route path='/cardgame' element={<CardGame/>} />
       </Routes>
     </div>
   );

@@ -61,7 +61,11 @@ function IndexPage() {
                     Rating
                     </button>
                 </li>
-                
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/cardgame')}>
+                    CardGame
+                    </button>
+                </li>
             </ul>
         </div>
     )
