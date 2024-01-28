@@ -16,6 +16,7 @@ import AnalogClock from './components/AnalogClock';
 import Rating from './components/Rating';
 import CardGame from './components/CardGame';
 import MultiPageForm from './components/MultiPageForm';
+import Pagination from './components/Pagination';
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
           <Route path='/rating' element={<Rating/>} />
           <Route path='/cardgame' element={<CardGame/>} />
           <Route path='/multipageform' element={<MultiPageForm/>} />
+          <Route path='/pagination' element={<Pagination/>} />
       </Routes>
     </div>
   );

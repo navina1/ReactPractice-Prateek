@@ -71,6 +71,11 @@ function IndexPage() {
                     MultiPageForm
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/pagination')}>
+                    Pagination-customhook
+                    </button>
+                </li>
             </ul>
         </div>
     )
