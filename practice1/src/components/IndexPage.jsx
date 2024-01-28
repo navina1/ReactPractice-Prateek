@@ -66,6 +66,11 @@ function IndexPage() {
                     CardGame
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/multipageform')}>
+                    MultiPageForm
+                    </button>
+                </li>
             </ul>
         </div>
     )

@@ -15,6 +15,7 @@ import IndexPage from './components/IndexPage';
 import AnalogClock from './components/AnalogClock';
 import Rating from './components/Rating';
 import CardGame from './components/CardGame';
+import MultiPageForm from './components/MultiPageForm';
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
           <Route path='/analogClock' element={<AnalogClock/>} />
           <Route path='/rating' element={<Rating/>} />
           <Route path='/cardgame' element={<CardGame/>} />
+          <Route path='/multipageform' element={<MultiPageForm/>} />
       </Routes>
     </div>
   );

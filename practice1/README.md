@@ -19,3 +19,5 @@
 10. Build a star rating component showing row of star icons for users to select number of filled stars corresponding to the rating. -Rating
 
 11. Build a memory game where the player needs to match pairs of cards. - CardGame
+
+12. multipage form - MultipageForm

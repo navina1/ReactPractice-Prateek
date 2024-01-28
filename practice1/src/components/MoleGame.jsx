@@ -12,7 +12,7 @@ function MoleGame() {
             newMoles[random] = true;
             return newMoles;
           });
-        }, 2000);
+        }, 1000);
       
         return () => clearInterval(interval);
       }, []);
