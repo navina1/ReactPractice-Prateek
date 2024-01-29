@@ -1,0 +1,13 @@
+.light{
+    height: 40px;
+    width:30px;
+    border: solid 1px black;
+    margin: auto;
+    background-color: white;
+}
+.on{
+    background-color: green;
+}
+.off{
+    background-color: white;
+}

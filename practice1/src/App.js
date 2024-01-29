@@ -17,6 +17,7 @@ import Rating from './components/Rating';
 import CardGame from './components/CardGame';
 import MultiPageForm from './components/MultiPageForm';
 import Pagination from './components/Pagination';
+import GridOfLights from './components/GridOfLights';
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
           <Route path='/cardgame' element={<CardGame/>} />
           <Route path='/multipageform' element={<MultiPageForm/>} />
           <Route path='/pagination' element={<Pagination/>} />
+          <Route path='/gridoflight' element={<GridOfLights/>} />
       </Routes>
     </div>
   );

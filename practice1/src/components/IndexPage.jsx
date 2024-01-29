@@ -76,6 +76,11 @@ function IndexPage() {
                     Pagination-customhook
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/gridoflight')}>
+                        Grid of Lights
+                    </button>
+                </li>
             </ul>
         </div>
     )
