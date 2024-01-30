@@ -81,6 +81,11 @@ function IndexPage() {
                         Grid of Lights
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/tictactoe')}>
+                        Tic Tac Toe Game
+                    </button>
+                </li>
             </ul>
         </div>
     )

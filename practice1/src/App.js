@@ -18,6 +18,7 @@ import CardGame from './components/CardGame';
 import MultiPageForm from './components/MultiPageForm';
 import Pagination from './components/Pagination';
 import GridOfLights from './components/GridOfLights';
+import TicTacToe from './components/TicTacToe';
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,7 @@ function App() {
           <Route path='/multipageform' element={<MultiPageForm/>} />
           <Route path='/pagination' element={<Pagination/>} />
           <Route path='/gridoflight' element={<GridOfLights/>} />
+          <Route path='/tictactoe' element={<TicTacToe/>} />
       </Routes>
     </div>
   );

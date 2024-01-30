@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.cell{
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: double;
+}
+.row{
+    display: flex;
+
+}
+.player{
+    padding: 20px;
+}
