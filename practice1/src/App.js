@@ -19,6 +19,7 @@ import MultiPageForm from './components/MultiPageForm';
 import Pagination from './components/Pagination';
 import GridOfLights from './components/GridOfLights';
 import TicTacToe from './components/TicTacToe';
+import Parent from './components/usecontext/Parent';
 function App() {
   return (
     <div className="App">
@@ -40,6 +41,7 @@ function App() {
           <Route path='/pagination' element={<Pagination/>} />
           <Route path='/gridoflight' element={<GridOfLights/>} />
           <Route path='/tictactoe' element={<TicTacToe/>} />
+          <Route path='/usecontext' element={<Parent/>} />
       </Routes>
     </div>
   );

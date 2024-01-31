@@ -86,6 +86,11 @@ function IndexPage() {
                         Tic Tac Toe Game
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/usecontext')}>
+                        Usecontext
+                    </button>
+                </li>
             </ul>
         </div>
     )
