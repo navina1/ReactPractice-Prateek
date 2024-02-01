@@ -21,6 +21,7 @@ import GridOfLights from './components/GridOfLights';
 import TicTacToe from './components/TicTacToe';
 import Parent from './components/usecontext/Parent';
 import Test from './components/higherOrderComponent/Test';
+import ChatBot from './components/ChatBot';
 function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ function App() {
           <Route path='/tictactoe' element={<TicTacToe/>} />
           <Route path='/usecontext' element={<Parent/>} />
           <Route path='/hoc' element={<Test/>} />
+          <Route path='/chat' element={<ChatBot/>} />
       </Routes>
     </div>
   );

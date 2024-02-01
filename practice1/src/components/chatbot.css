@@ -1,0 +1,33 @@
+.chatbox{
+    width:500px;
+    height:300px;
+    border:1px solid gray;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+.buttonbox{
+    padding: 5px;
+}
+span{
+    font-size: 15px;
+    width: 250px;
+}
+.me{
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px 10px 10px 0;
+    align-self: flex-end;
+}
+.u{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px 10px 10px 0;
+    align-self: flex-start;
+}

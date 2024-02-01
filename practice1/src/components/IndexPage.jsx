@@ -96,6 +96,11 @@ function IndexPage() {
                         Higher Order component
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/chat')}>
+                        ChatBot
+                    </button>
+                </li>
             </ul>
         </div>
     )
