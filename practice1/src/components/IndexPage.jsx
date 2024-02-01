@@ -91,6 +91,11 @@ function IndexPage() {
                         Usecontext
                     </button>
                 </li>
+                <li className="index-list-item">
+                    <button className="index-link" onClick={() => goToPage('/hoc')}>
+                        Higher Order component
+                    </button>
+                </li>
             </ul>
         </div>
     )

@@ -20,6 +20,7 @@ import Pagination from './components/Pagination';
 import GridOfLights from './components/GridOfLights';
 import TicTacToe from './components/TicTacToe';
 import Parent from './components/usecontext/Parent';
+import Test from './components/higherOrderComponent/Test';
 function App() {
   return (
     <div className="App">
@@ -42,6 +43,7 @@ function App() {
           <Route path='/gridoflight' element={<GridOfLights/>} />
           <Route path='/tictactoe' element={<TicTacToe/>} />
           <Route path='/usecontext' element={<Parent/>} />
+          <Route path='/hoc' element={<Test/>} />
       </Routes>
     </div>
   );
